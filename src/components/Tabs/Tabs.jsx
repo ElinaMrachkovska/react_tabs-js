@@ -25,7 +25,7 @@ export const Tabs = ({ tabs, activeTabId, onTabSelected }) => {
             return (
               <li key={tab.id} className={tabClass} data-cy="Tab">
                 <a href={`#${tab.id}`} data-cy="TabLink" onClick={handleClick}>
-                  {`Selected tab is ${tab.title}`}
+                  {tab.title}
                 </a>
               </li>
             );

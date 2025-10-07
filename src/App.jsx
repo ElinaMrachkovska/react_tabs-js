@@ -22,7 +22,7 @@ export const App = () => {
 
   return (
     <div className="section">
-      <h1 className="title">{activeTabTitle}</h1>
+      <h1 className="title">{`Вибрана вкладка — це ${activeTabTitle}`}</h1>
 
       <div data-cy="TabsComponent">
         <Tabs
